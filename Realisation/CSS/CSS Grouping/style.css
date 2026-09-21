@@ -1,0 +1,33 @@
+.one{
+    
+    color: red;
+    
+    border-bottom: 2px solid red;
+}
+.two{
+    
+    color: green;
+    
+    border-bottom: 2px solid green;
+
+}
+.three {
+    color: blue;
+   
+    border-bottom: 2px solid blue;
+
+}
+
+.four{
+    
+    color: black;
+   
+    border-bottom:2px solid black;
+
+}
+
+.one, .two , .three, .four ,.my-p{
+    padding:10pX;
+    margin:10px 0;
+    background-color: #eee;
+}
