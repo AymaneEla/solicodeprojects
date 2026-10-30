@@ -1,0 +1,22 @@
+.carte-article{
+    max-width: 300px;
+    background-color: #f9fafb;
+    border: 2px solid #e5e7eb;
+        margin-bottom: 25px;
+}
+
+.carte-contenu{
+    padding: 20px;
+}
+
+.carte-contenu h3{
+    margin: 0;
+}
+
+.carte-contenu p{
+    margin: 12px 0;
+}
+
+.section-articles{
+    padding: 80px 24px;
+}
