@@ -1,0 +1,25 @@
+.header{
+    padding: 10px var(--space-x);
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-light);
+    align-items: center;
+}
+
+.navBar ul{
+    display: flex;
+    gap: 24px;
+}
+
+.navBar ul a{
+    color: var(--text-light);
+}
+
+footer{
+   padding: 50px var(--space-x);
+   background-color: var(--primary);
+   display: flex;
+ justify-content: space-between;
+align-items: flex-start;
+}

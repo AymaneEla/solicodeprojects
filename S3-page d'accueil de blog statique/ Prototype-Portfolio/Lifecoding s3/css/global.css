@@ -1,0 +1,38 @@
+:root{
+    --primary:#0f3457;
+    --secondary:blueviolet;
+    --font-main:Arial, Helvetica, sans-serif;
+    --font-title:Georgia, 'Times New Roman', Times, serif;
+    --text-light:white;
+    --text-muted:rgb(174, 171, 171);
+    --space-x:100px;
+}
+
+body{
+    font-family:var(--font-main);
+    line-height: 1.5;
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+list-style: none;
+}
+
+input{
+    width: 150px;
+    height: 30px;
+}
+
+textarea{
+    width: 250px;
+    height: 100px;
+}
