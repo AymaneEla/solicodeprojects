@@ -1,0 +1,61 @@
+.logo{
+    font-family: var(--font-title);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pill{
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: rgb(214, 215, 236);
+    border-radius: 20px;
+    font-size: 14px;
+    color: var(--accent);
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 6px 14px;
+    background-color: white;
+    color: #73b5f3;
+    border-radius: 6px;
+    font-weight: 700;
+    border: 1px solid BLACK;
+}
+
+.profileImg{
+    
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--primary);
+    padding: 8px 14px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: var(--text-light);
+}
+
+.btn-two{
+    padding: 10px 14px;
+    width: 80px;
+    border-radius: 20px;
+    color: #007ef4;
+}
+
+.curse{
+    border-bottom: 2px solid rgb(215, 236, 245);
+
+}
