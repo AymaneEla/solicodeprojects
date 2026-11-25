@@ -1,0 +1,33 @@
+.header{
+    padding: 10px 100px;
+    background-color: var(--primary);
+    color: var(--text-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header ul{
+    display: flex;
+    gap: 70px;
+    font-weight: 600;
+    
+}
+
+.header ul li a{
+    color: var(--text-light);
+    font-size: 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 100px;
+    background: var(--primary);
+    color: var(--text-light);
+    padding-bottom: 40px;
+}
+
+

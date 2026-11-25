@@ -1,0 +1,78 @@
+.home{
+    background-color: var(--primary);
+    padding: 120px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeText{
+    width: 50%;
+}
+.homeText h1{
+    font-size:30px;
+    color: var(--text-light);
+    font-family: var(--font-title);
+    margin-bottom: 10px;
+}
+
+.homeText p{
+    font-size: 15px;
+    color: var(--text-muted);
+    margin-bottom: 30px;
+    
+}
+
+.skills{
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills h2{
+    text-align: center;
+}
+
+.skills h2 span {
+    display: inline-block;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    
+    
+}
+
+
+.card h3{
+    font-size: 18px;
+}
+.card P{
+    font-size: 16px;
+}
+
+.cards-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.infoLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.infoRight{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+
+textarea{
+    width: 300px;
+    height: 200px;
+}
